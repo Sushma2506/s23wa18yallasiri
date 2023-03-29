@@ -15,9 +15,7 @@ router.get('/', function(req, res, next) {
         });
   }
   else{
-
     for (let x in req.query) {
-
       console.log(x)
 
       res.render('computation', {
@@ -28,9 +26,6 @@ router.get('/', function(req, res, next) {
     }
   }
 
-
 });
-
-
 module.exports = router;
 
